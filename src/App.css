@@ -1,0 +1,28 @@
+.allContainer
+{
+    display: flex;
+
+}
+.filterPage
+{
+    width:25vw;
+    border:3px solid green;
+    height:100vh;
+    
+}
+.sortList
+{
+    
+    width:50vw;
+    border:3px solid blue;
+    height:100vh;
+
+
+
+}
+.infoPage
+{
+    width:25vw;
+    border:3px solid yellow;
+    height:100vh;
+}

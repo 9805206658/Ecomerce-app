@@ -1,0 +1,19 @@
+.btn
+{
+    width:200px;
+    height:50px;
+   border-radius:10px;
+   text-align:center;
+   margin-top:4px;
+   line-height:50px;
+    background-color: rgba(113, 81, 81, 0.296);
+
+}
+.filterPropertyContainer
+{
+    flex-direction:column;
+    list-style-type: none;
+    top:10vh;
+    position: relative;
+
+}

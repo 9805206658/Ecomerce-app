@@ -1,0 +1,119 @@
+:root{
+    --productWidth:10vw;
+}
+/* .productList
+{
+    border:3px solid blue;
+    width:50vw;
+    height:100vh;
+    overflow: scroll;
+    margin:auto;
+   display: grid;
+   column-gap: 2%;
+   row-gap: 2%;
+   justify-content: center;
+   grid-template-columns: var(--productWidth)var(--productWidth) var(--productWidth) var(--productWidth);
+} */
+/* .productContainer
+{
+  
+    width:var(--productWidth);
+    height:30vh;
+    border-radius:10px;
+    box-sizing:border-box;
+    cursor:pointer;
+    margin-bottom: 5%;
+    overflow: hidden;
+
+} */
+/* .imageContainer
+{
+    display:flex;
+    width:100px;
+    align-items: center;
+    height:100px;
+   border:3px solid green;
+}
+.image
+{
+    width:95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:65%;
+  
+}
+.productInfo
+{
+border:3px solid red;
+text-align:center;
+overflow: hidden;
+
+} */
+.carName
+{
+    color:hsl(31, 92%, 37%);
+    text-align:center;
+}
+.box
+{
+    border:3px solid red;
+    height:500px;
+    background-color: blue;
+    width:500px;
+    
+}
+.allMenuContainer
+{
+    display:none;
+    width:50vw;
+    height: 40vh;
+    left:12vw;
+    position:absolute;
+    margin:auto;
+    
+    
+}
+.MenuContainer
+{
+   width:11vw;
+   padding:10px 0px 0px 2px;
+   height:35vh;
+   border:3px solid blue;
+   border-radius: 10px;
+   background-color: rgba(255, 255, 255, 0.444);
+}
+
+.item
+{
+/* background-color: rgb(202, 192, 178); */
+width:100%;
+list-style-type:none;
+height:8%;
+color:rgba(0, 0, 0, 0.589);
+box-sizing: border-box;
+border-radius:8px;
+margin-top:0.3vh;
+}
+.itemHoverEffect
+{
+    background-color: rgb(232, 221, 221);
+    border-radius:5px;
+}
+.rightArrow
+{
+    color:black;
+    position:relative;
+    margin-right: 2px;
+    float:right;
+   
+}
+.rightArrowHide
+{
+    
+    display: none;
+}
+
+
+
+

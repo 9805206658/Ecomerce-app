@@ -1,0 +1,177 @@
+:root
+{
+    --fontColor:white;
+    --itemHeight:6vh;
+    --fontSize:17px;
+}
+.navigation
+{
+    width:100vw;
+    display: flex;
+    /* border:10px solid green; */
+    flex-direction: column;
+    height:10vh;
+    background-color: #f85606;
+}
+.topRow
+{
+    display:flex;
+    width:50vw;
+    height:4vh;
+    list-style-type: none;
+   margin:auto;
+   justify-content: center;
+    column-gap: 2vw;
+    
+}
+li
+{
+    list-style:none;
+}
+.topRowItem
+{
+    color:white;
+    text-decoration:none;
+
+}
+.logoCotainer
+{
+width:100px;
+height: var(--itemHeight);
+
+border-radius:20px;
+}
+.logoCotainer img
+{
+    width:100px;
+    height: var(--itemHeight);
+    border-radius:20px;
+}
+.topRow2
+{
+    display:flex;
+    width:65vw;
+    height: var(--itemHeight);
+    align-items: center;
+    box-sizing: border-box;
+    margin:auto;
+    column-gap: 2vw;
+
+}
+.categoryInfo
+{
+
+height:100%;
+line-height: 100%;
+}
+#category 
+{
+   height:4.5vh;
+   text-align:center;
+   width:6.5vw;
+   font-size: var(--fontSize);
+   border-radius: 10px;
+   font-weight:bolder;
+   background-color: none;
+   color:white;
+   background-color: #f80606d2;
+   border:none;
+
+}
+#category:hover
+{
+    background-color:red ;
+    border:3px solid blue;
+}
+#searchContainer
+{
+  
+height:100%;
+}
+#searchContainer i
+{
+position: relative;
+right:30px;
+background-color:red;
+font-size:20px;
+text-align:center;
+border:3px solid red;
+
+}
+#searchContainer input
+{
+    width:25vw;
+    height:90%;
+    line-height:20px;
+    border-radius:10px;
+}
+#signInContainer
+{
+    height: var(--itemHeight);
+line-height: var(--itemHeight);
+}
+#signUpContainer
+{
+ height: var(--itemHeight);
+line-height: var(--itemHeight);
+}
+.signIn
+{
+    height: 100%;
+    text-decoration: none;
+    font-weight: bold;
+  font-size: var(--fontSize);
+    color:white;
+
+    
+}
+.signUp
+{
+    height: 100%; 
+    color:white;
+    font-weight: bold;
+    font-size: var(--fontSize);
+    text-decoration: none;
+    
+}
+#language
+{
+    text-align: center;
+    font-size: var(--fontSize);
+    color:white;
+}
+#shoopingCard
+{
+    height: var(--itemHeight);
+    line-height: var(--itemHeight);
+    color:white;
+    font-weight:bold;
+ font-size: var(--fontSize);
+}
+/* here setting style of the list style */
+.searchList
+{
+    border:3px solid red;;
+   color:white;
+   position: absolute;
+   width:22.8vw;
+   height:15vh;
+   overflow-y:scroll;
+   /* background-color: black; */
+   list-style-type: none;
+}
+.searchListItem
+{
+  height:50px;
+  width:100%;
+  margin: auto;
+  margin-top:2px;
+  border-radius:5px;
+  background-color:hsl(102, 7%, 65%) ;
+}
+.searchListItem:hover
+{
+    font-size:15px;
+    font-weight:bold;
+    box-shadow:5px,5p,5px,hsl(102, 7%, 65%)
+}

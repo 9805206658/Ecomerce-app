@@ -1,0 +1,92 @@
+:root{
+    --productWidth:10vw;
+}
+.productList
+{
+    border:3px solid blue;
+    width:50vw;
+    height:100vh;
+    overflow: scroll;
+   display: grid;
+   column-gap: 2%;
+   row-gap: 2%;
+   justify-content: center;
+   grid-template-columns: var(--productWidth)var(--productWidth) var(--productWidth) var(--productWidth);
+}
+.productContainer
+{
+  
+    width:var(--productWidth);
+    height:30vh;
+    border-radius:10px;
+    box-sizing:border-box;
+    cursor:pointer;
+    border:3px solid red;
+    margin-bottom: 5%;
+    overflow: hidden;
+
+}
+.imageContainer
+{
+    display:flex;
+    width:100px;
+    align-items: center;
+    height:100px;
+   border:3px solid green;
+}
+.image
+{
+    width:95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:65%;
+  
+}
+.productInfo
+{
+border:3px solid red;
+text-align:center;
+overflow: hidden;
+
+}
+.carName
+{
+    color:hsl(31, 92%, 37%);
+    text-align:center;
+}
+.box
+{
+    border:3px solid red;
+    height:500px;
+    background-color: blue;
+    width:500px;
+    
+}
+.mainContainer
+{
+    display:flex;
+    border:3px solid blue;
+}
+.filtering
+{
+    width:20%;
+    border:3px solid red;
+    height:100vh;
+    text-align:center;
+}
+
+.filterHeader
+{
+    text-align:center;
+    border:3px solid red;
+}
+.filterColor
+{
+    border:3px solid blue;
+    display:flex;
+
+}
+
+
+
